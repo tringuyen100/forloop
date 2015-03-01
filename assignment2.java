@@ -18,7 +18,7 @@ public class assignment2 {
 		numb3 = keyboard.next();//input3
 		numb4 = keyboard.next();//input4
 		numb5 = keyboard.next();//input5
-		System.out.println(numb1 + numb2 + numb3+ numb4 + numb5);
+		
 		
 		dblnumb1 = Double.parseDouble(numb1); //double value
 		int1 = dblnumb1.intValue(); //change from double to interger for sorting
