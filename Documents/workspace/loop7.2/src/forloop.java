@@ -7,8 +7,7 @@ public class forloop {
 		String password = "";
 		String tempuser = "";
 		String temppass = "";
-		Boolean buser;
-		int i=0;
+		
 		
 		System.out.println("Create a username");
 		Scanner keyboard = new Scanner(System.in);
@@ -25,7 +24,7 @@ public class forloop {
 					}}
 			for (int x=1; x<=1; x++) {
 				if(!tempuser.equalsIgnoreCase(username)){
-					System.out.println("Too many failed attempts, your account is now locked");
+					System.out.println("Your account is locked");
 					System.out.println("Please contact your adminstrator to unlock your account!"); 
 					return;
 					}}
@@ -41,7 +40,7 @@ public class forloop {
 			
 		for (int x=1; x<=1; x++) {
 				if(!temppass.equalsIgnoreCase(password)){
-					System.out.println("Too many failed attempts, your account is now locked");
+					System.out.println("Your account is locked");
 					System.out.println("Please contact your adminstrator to unlock your account!"); 
 					return;
 		
